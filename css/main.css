@@ -81,7 +81,7 @@ main .main-input input {
   height: 40px;
   border: none;
   outline: none;
-  padding-left: 10px;
+  /*padding-left: 10px;*/
 }
 
 main .main-input-container:hover {
@@ -96,6 +96,7 @@ main .main-input .search-icon {
   background-size: contain;
   width: 18px;
   height: 18px;
+  padding-right: 15px;
 }
 
 main .main-input .micro-icon {
