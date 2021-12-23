@@ -8,7 +8,7 @@ input.addEventListener("change", (event) => {
   const query = `http://www.google.com/search?hl=es&q=${submit}`;
 
   button.onclick = function () {
-    window.open(query);
+    window.open(query, "_self");
   };
 });
 
@@ -18,6 +18,6 @@ input.addEventListener("keyup", (event) => {
   const query = `http://www.google.com/search?hl=es&q=${submit}`;
 
   if (key === 13) {
-    window.open(query);
+    window.open(query, "_self");
   }
 });
