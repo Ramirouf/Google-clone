@@ -81,6 +81,7 @@ main .main-input input {
   height: 40px;
   border: none;
   outline: none;
+  padding-left: 10px;
 }
 
 main .main-input-container:hover {
